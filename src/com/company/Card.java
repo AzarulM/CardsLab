@@ -31,12 +31,12 @@ public class Card {
 
     public boolean equals(Card othercard)
     {
-
+        return this.pointValue == othercard.pointValue;
     }
 
     public String toString()
     {
-
+        return this.rank + " of " + this.suit;
     }
 
 }
